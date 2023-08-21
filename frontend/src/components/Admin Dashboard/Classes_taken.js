@@ -41,7 +41,7 @@ const Classes_taken = () => {
   // }
    const fetchdata = async () => {
     setloader(true)
-    const response = await fetch(`https://isd-b4ev.onrender.com/classestaken/${teachername}`, {
+    const response = await fetch(`https://classopedia.onrender.com/classestaken/${teachername}`, {
       method: "GET",
       headers: {
         Accept: "application/json",
@@ -63,7 +63,7 @@ const Classes_taken = () => {
     console.log(json.data);
   }
    const fetchteacher = async () => {
-    const response = await fetch("https://isd-b4ev.onrender.com/teacherdata", {
+    const response = await fetch("https://classopedia.onrender.com/teacherdata", {
       method: "GET",
       headers: {
         Accept: "application/json",

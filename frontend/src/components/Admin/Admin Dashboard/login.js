@@ -30,7 +30,7 @@ const Loginadmin = () => {
   const login = async (e) => {
     setVisible(false);
     e.preventDefault();
-    await fetch("https://isd-b4ev.onrender.com/adminlogin", {
+    await fetch("https://classopedia.onrender.com/adminlogin", {
       method: "POST",
       headers: {
         Accept: "application/json",

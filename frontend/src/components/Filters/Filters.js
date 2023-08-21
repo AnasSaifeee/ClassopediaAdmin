@@ -61,7 +61,7 @@
 
 //   const fetchdata = async () => {
 //     const response = await fetch(
-//       `https://isd-b4ev.onrender.com/attendancereport/${semparam}`,
+//       `https://classopedia.onrender.com/attendancereport/${semparam}`,
 //       {
 //         method: "GET",
 //         headers: {

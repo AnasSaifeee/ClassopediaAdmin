@@ -49,7 +49,7 @@ function TeacherRegister() {
   async function Register(e) {
     e.preventDefault();
     const response = await fetch(
-      "https://isd-b4ev.onrender.com/registerteacher",
+      "https://classopedia.onrender.com/registerteacher",
       {
         method: "POST",
         headers: {

@@ -80,7 +80,7 @@ else if(Sem4)
     if(subject) {
       setloader(true)
       e.preventDefault()
-      const response = await fetch(`https://isd-b4ev.onrender.com/attendance/${semparam}`, {
+      const response = await fetch(`https://classopedia.onrender.com/attendance/${semparam}`, {
         method: "POST",
         headers: {
           Accept: "application/json",
